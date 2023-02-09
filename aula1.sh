@@ -3,7 +3,7 @@
 echo "Qual o seu nome?"
 read nome
 echo "Olá, $nome!"
-#Para salvar o arquivo será necessário sair do modo de edição, pressione 'esc' + ':' + 'wq', caso o arquivo ainda não tenha nome usar ":w <nome aruivo>"
+#Para salvar o arquivo será necessário sair do modo de edição, pressione 'esc' + ':' + 'wq', caso o arquivo ainda não tenha nome usar ":w <nome arquivo>"
 
 #COMANDOS
 
