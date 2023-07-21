@@ -15,3 +15,7 @@ uname -rms #informa versão do kernel e arquitetura
  ./script1
 
 echo "echo comando " > script1 #insere comandos no arquivo script1 através do terminal
+
+test -x nomearquivo #serve para testar se o nomearquivo é um arquivo executável
+[ -x nomearquivo]  #outra representação do comando teste
+echo $? #serve para mostrar o sucesso de um comando anterior - valor 0 - ou a falha - valor aleatório
